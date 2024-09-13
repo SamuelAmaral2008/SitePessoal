@@ -1,0 +1,119 @@
+.contienerhead {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.divheader1 {
+    background-color: #083c74;
+    height: 50px;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 1200px;
+}
+
+.divheader2 {
+    align-items: center;
+    color: white;
+    display: flex;
+
+
+}
+
+.divheader3 {
+    align-items: center;
+    color: white;
+    display: flex;
+
+
+
+}
+
+.grupobt .butao {
+
+
+    background-color: #083c74;
+    border: none;
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    flex-direction: row;
+    height: 50px;
+    transition: background-color 0.3s;
+
+}
+
+.grupobt .butao:hover {
+    background-color:#072544; 
+}
+
+.conteinersection {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   
+}
+
+.imgcss {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100px;
+  
+}
+
+
+body{
+ 
+    background-image: url('fundo1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 1200px;
+}
+
+.div1 {
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px;
+    width: calc(33.333% - 20px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
+    transform: scale(1.1);
+ 
+  
+    
+}
+
+.div1 h3 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #083c74;
+   
+}
+
+.div1 p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+#div1:houver{
+    transform: scale(1.1);
+}
+
+
+
+
